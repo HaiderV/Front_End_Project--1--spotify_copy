@@ -1,0 +1,238 @@
+*{
+  margin: 0;
+  padding: 0%;
+}
+.nav {
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(39, 37, 37);
+    display: flex;
+    align-items: center;
+}
+.body {
+    width: 100%;
+    height: 100vh;
+    background-color: #b2f2bb;
+}
+.plays {
+    width: 100%;
+    height: 12vh;
+    background-color: rgb(39, 37, 37);
+    position: sticky;
+    z-index: 1000;
+    bottom: 0;
+}
+#logo {
+    width: 6.5vw;
+    height: 7.5vh;
+    background-image: url(ChatGPT\ Image\ Jun\ 21\,\ 2025\,\ 08_12_50\ PM.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.padding {
+    padding: 0 1vw;
+    color: white;
+    font-size: 1vw;
+    cursor: pointer;
+}
+.padding:hover {
+    text-decoration: underline;
+}
+#name {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    padding-right: 2vw;
+}
+#sbar {
+    padding-left: 17vw;
+    cursor: pointer;
+}
+#sbar input{
+    width: 48vw;
+    height: 4.6vh;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(56, 53, 53);
+    color: rgb(102, 97, 97);
+    text-align: left;
+    padding-left: 1vw;
+    font-size: 2vh;
+}
+#sbar input:hover {
+    border: 2px solid white;
+}
+#sbar input:active {
+    border: 2px solid white;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5vw;
+}
+.left {
+    width: 20vw;
+    height: 80vh;
+    background-color: rgb(39, 37, 37);
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    gap: 0vh;
+    border-radius: 20px;
+}
+.right {
+    width: 65vw;
+    height: 80vh;
+    background-image: url(Gemini_Generated_Image_dsxy9sdsxy9sdsxy.png);
+    background-size: cover;
+    margin-bottom: 10vh;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border: 2px solid rgb(39, 37, 37);
+}
+#album {
+    color: white ;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1vw 1vw;
+
+}
+.E1 {
+    width: 18vw;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+    margin-bottom: 20vh;
+}
+#l1 {
+    width: 16vw;
+    height: 12vh;
+    background-color: rgb(56, 53, 53);
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1.3rem;
+    gap: 1vw;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+#l1 img{
+    width: 5vw;
+    height: 8vh;
+    border-radius: 15px;
+    padding-left: 1vw;
+}
+#l1:hover {
+    background-color: rgb(84, 79, 79);
+    transform: scale(1.0);
+}
+#l1:active {
+    background-color: #b2f2bb;
+    transform: scale(0.92);
+}
+.scontainer {
+    width: 40vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-left: 3.2vw;
+    padding-top: 1.5vh;
+}
+.songlist {
+    width: 40vw;
+    height: 80vh;
+    padding-bottom: 3vh;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5vh;
+}
+.s1 {
+    width: 33vw;
+    height: 5.2vh;
+    background-color: rgba(56, 53, 53, 0.567);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0.6vw;
+}
+.pcontainer {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+.seekbar {
+  width: 70vw;
+  height: 1vh;
+}
+.songimage {
+    width: 3.5vw;
+    height: 7vh;
+    background-image: url(s01.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.songnameseekbar {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+}
+.timer {
+    font-size: 1.5rem;
+    color: white;  
+}
+.imgs img{
+    width: 4vh;
+    height: 4vh;
+    padding-top: 0.3vh;
+    padding-left: 0.5vw;
+    border-radius: 50%;
+}
+.songnames {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+}
+.listplay {
+    margin-left: auto;
+    padding-right: 1vh;
+}
+.listplay i{
+    font-size: 1.3rem;
+    color: white;
+    cursor: pointer;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.7vh;
+    padding-top: 2.4vw;
+}
+.i2 {
+    font-size: 1.9rem;
+    color: white;
+    word-spacing: 1vh;
+    cursor: pointer;
+}
