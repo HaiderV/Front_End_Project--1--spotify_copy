@@ -16,5 +16,8 @@ A sleek, responsive music streaming interface inspired by Spotify. This project 
 * **CSS:** Custom styling with Flexbox and Spotify's signature color palette.
 * **JavaScript:** Core logic for audio handling, seekbar synchronization, and DOM manipulation.
 
+## link
+https://haiderv.github.io/Front_End_Project--1--spotify_copy/
+
 
 
